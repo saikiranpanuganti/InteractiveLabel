@@ -4,6 +4,10 @@
 Interective Label class for making the strings in the label clickable. Assign the class for the Label and use the below code for adding. Just use the below function and pass the array to the function after assigning the class to the label, titleText is optional. 
 
 
+
+
+
+
 func setUpText(list : [String], titleText : String) {
         attributedString = NSMutableAttributedString()
         rangeArray = []
